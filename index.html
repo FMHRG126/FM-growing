@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="緊急支援人力會員成長獎金制度：每月增加支援次數、獎金級距、基本資格與發放時間。" name="description"/>
+<meta content="light" name="color-scheme"/>
+<title>會員成長獎金制度｜緊急支援人力</title>
+<style>
+:root{--text:#1f2937;--muted:#667085;--blue:#1f5d8f;--blue-dark:#174a72;--header:#dcecf7;--line:#aeb8c2;--bg:#f5f7fa}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",Arial,sans-serif;line-height:1.75}
+main{width:min(1100px,calc(100% - 28px));margin:28px auto 48px;background:#fff;padding:42px 48px 52px;border:1px solid #e3e8ee;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+.main-title{font-size:32px;font-weight:800;text-align:center;line-height:1.4;margin:8px 0 30px;color:var(--blue-dark);letter-spacing:.5px}
+.main-title .eyebrow{display:block;font-size:20px;font-weight:700;margin-bottom:6px;letter-spacing:2px}
+.main-title .title-text{display:block}
+h2{margin:38px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--blue);color:var(--blue-dark);font-size:24px;line-height:1.4}
+p{margin:0 0 14px;font-size:16px;font-weight:400}
+strong{font-weight:700}
+.intro{margin-bottom:0}
+.note{color:#465467;font-size:15px}
+.table-wrap{width:100%;margin:12px 0 18px}
+table{width:100%;border-collapse:collapse;background:#fff;table-layout:fixed;font-size:16px}
+th,td{border:1px solid var(--line);padding:11px 14px;vertical-align:middle;text-align:left;overflow-wrap:anywhere;word-break:normal}
+th{background:var(--header);font-weight:700;color:#173b5f}
+th[scope="row"]{background:#f4f8fc;font-weight:700}
+.reward-table th:first-child{width:64%}
+.reward-table th:last-child,.reward-table td:last-child{text-align:center}
+.reward-table .amount{font-size:24px;font-weight:800;color:var(--blue-dark);white-space:nowrap;font-variant-numeric:tabular-nums}
+.reward-table .unit{font-size:15px;margin-left:4px;font-weight:400}
+.count-table th:first-child{width:64%}
+.count-table th:last-child,.count-table td:last-child{text-align:center}
+.count{color:var(--blue-dark);font-size:20px;font-weight:700;white-space:nowrap}
+.callout{background:#eff6fb;border-left:4px solid var(--blue);padding:15px 18px;margin:18px 0}
+.callout p:last-child{margin-bottom:0}
+.callout strong{color:var(--blue-dark)}
+.conditions th:first-child{width:23%}
+.conditions td{line-height:1.8}
+.info-box{margin:18px 0 0;border:1px solid #cddbe7;border-radius:7px;overflow:hidden}
+.info-title{margin:0;padding:12px 16px;background:#f4f8fc;color:var(--blue-dark);font-size:16px;font-weight:700;line-height:1.6}
+.info-body{padding:16px 18px}
+.info-body p:last-child{margin-bottom:0}
+.formula{font-size:20px;font-weight:700;color:var(--blue-dark);letter-spacing:.3px}
+.payment-example{margin:18px 0;padding:17px 19px;border:1px solid #c5d9e9;border-radius:7px;background:#f6faff}
+.payment-example .label{color:var(--blue);font-size:14px;font-weight:700;margin-bottom:6px}
+.payment-example p:last-child{margin-bottom:0}
+.footer{margin-top:38px;padding-top:22px;border-top:1px solid #d9e2eb}
+.footer p{font-size:15px;color:#465467}
+.signature{text-align:right;font-weight:700!important;margin:20px 0 0!important;color:#465467}
+@media(max-width:760px){
+ main{width:100%;margin:0;padding:26px 16px 38px;border:0;box-shadow:none}
+ .main-title{font-size:clamp(24px,6.5vw,28px);margin-bottom:24px;letter-spacing:0}
+ .main-title .eyebrow{font-size:17px;letter-spacing:1.5px}
+ h2{font-size:21px;margin-top:32px}
+ p,table,th,td,.info-title{font-size:14px}
+ th,td{padding:9px 8px;line-height:1.6}
+ .reward-table .amount{font-size:22px}
+ .reward-table .unit{font-size:14px}
+ .count{font-size:19px}
+ .note,.footer p{font-size:14px}
+ .conditions th:first-child{width:26%}
+ .callout{padding:13px 14px}
+ .info-title{padding:11px 13px}
+ .info-body{padding:14px}
+ .formula{font-size:18px;letter-spacing:0}
+ .payment-example{padding:14px}
+ .footer{margin-top:30px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{
+ body{background:#fff}
+ main{width:100%;margin:0;padding:0;border:0;box-shadow:none}
+ h2{break-after:avoid}
+ table,.callout,.payment-example,.info-box{break-inside:avoid}
+}
+
+/* 五份統一：回到四份原始網頁一致的等大雙行標題；只影響主標題。 */
+.main-title{font-size:32px!important;font-weight:800!important;line-height:1.4!important;letter-spacing:.5px!important;text-align:center!important;margin:8px 0 30px!important}
+.main-title .title-text{display:block!important;font-size:inherit!important;line-height:inherit!important;font-weight:inherit!important}
+@media(max-width:760px){.main-title{font-size:clamp(24px,6.5vw,28px)!important;margin:8px 0 24px!important;letter-spacing:0!important}}
+@media(max-width:360px){.main-title{font-size:24px!important}}
+</style>
+<style data-design-system="unified-five-pages">
+/* 五份制度網站共用視覺規範；不修改原始制度內容 */
+:root{--text:#1f2937;--muted:#667085;--blue:#1f5d8f;--blue-dark:#174a72;--header:#dcecf7;--line:#aeb8c2;--bg:#f5f7fa}
+body{font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",Arial,sans-serif;line-height:1.78;color:var(--text);background:var(--bg)}
+main{width:min(1100px,calc(100% - 28px));margin:28px auto 48px;padding:42px 48px 52px;background:#fff}
+.main-title{font-size:34px!important;line-height:1.38!important;font-weight:800!important;letter-spacing:.3px!important;margin:4px 0 28px!important;text-align:center;color:var(--blue-dark)}
+.main-title .eyebrow{display:block;font-size:18px!important;line-height:1.5!important;font-weight:700!important;letter-spacing:1px!important;margin:0 0 6px!important}
+.main-title .title-text{display:block}
+h2{font-size:23px!important;line-height:1.45!important;font-weight:750!important;margin:35px 0 16px!important;padding-bottom:9px!important;border-bottom:2px solid var(--blue)}
+h3,.info-title{font-size:17px!important;line-height:1.55!important;font-weight:700!important}
+p,.intro{font-size:16px!important;line-height:1.85!important}
+.note,.small-note,.flow-caption{font-size:15px!important;line-height:1.75!important}
+.table-wrap{width:100%;max-width:100%;overflow-x:auto;overflow-y:hidden;margin:12px 0 18px}
+table,th,td{font-size:16px!important;line-height:1.7!important}
+table{border-collapse:collapse;width:100%;table-layout:fixed;background:#fff}
+th,td{padding:11px 13px!important;border:1px solid var(--line);vertical-align:middle}
+thead th{background:var(--header)!important;color:#173b5f!important;font-weight:700!important}
+tbody th[scope="row"],tbody th{background:#fff!important;color:var(--text)!important;font-weight:700!important}
+tbody td{background:#fff!important}
+.amount,.kpi-table .amount,.reward-table .amount,.count{font-size:20px!important;font-weight:700!important;color:var(--blue-dark)!important;font-variant-numeric:tabular-nums}
+.amount .unit,.kpi-table .unit,.reward-table .unit{font-size:15px!important;font-weight:400!important}
+.formula{font-size:19px!important;font-weight:700!important;line-height:1.6!important}
+.info-title{padding:12px 16px!important}
+.callout p,.info-body p,.payment-example p,.process-step p{font-size:16px!important;line-height:1.78!important}
+.footer{margin-top:37px;padding-top:21px;border-top:1px solid #d9e2eb}
+.footer p{font-size:15px!important;line-height:1.8!important}
+.footer .contact-phone{color:var(--blue-dark);font-weight:700;text-decoration:underline;white-space:nowrap}
+.footer .signature{font-weight:700!important;text-align:right}
+@media(max-width:760px){
+ main{width:100%;margin:0;padding:26px 16px 38px;border:0;box-shadow:none}
+ .main-title{font-size:27px!important;line-height:1.4!important;margin:0 0 25px!important}
+ .main-title .eyebrow{font-size:16px!important;letter-spacing:.7px!important;margin-bottom:6px!important}
+ h2{font-size:20px!important;line-height:1.5!important;margin:30px 0 14px!important;padding-bottom:8px!important}
+ h3,.info-title{font-size:16px!important}
+ p,.intro,.callout p,.info-body p,.payment-example p,.process-step p{font-size:15px!important;line-height:1.8!important}
+ .note,.small-note,.flow-caption,.footer p{font-size:14px!important}
+ table,th,td{font-size:14px!important;line-height:1.65!important}
+ th,td{padding:9px 8px!important}
+ .amount,.kpi-table .amount,.reward-table .amount,.count{font-size:18px!important}
+ .amount .unit,.kpi-table .unit,.reward-table .unit{font-size:13px!important}
+ .formula{font-size:17px!important}
+ .info-title{padding:11px 13px!important}
+ .footer{margin-top:30px}
+}
+@media(max-width:360px){main{padding-left:13px;padding-right:13px} .main-title{font-size:25px!important} th,td{padding:8px 6px!important}}
+@media print{body{background:#fff} main{width:100%;margin:0;padding:0;border:0;box-shadow:none}}
+</style><style data-design-system="compact-consistent-v3">
+/* 五份網頁共同視覺規範 v3: 精簡、緊湊、只強調關鍵資訊 */
+:root{--text:#243244;--muted:#617083;--blue:#1f5d8f;--blue-dark:#174a72;--header:#dcecf7;--line:#b7c6d4;--bg:#f5f7fa}
+body{line-height:1.6!important}
+main{width:min(960px,calc(100% - 28px))!important;margin:18px auto 28px!important;padding:30px 36px 34px!important;border:1px solid #e3e8ee!important;box-shadow:0 3px 12px rgba(0,0,0,.035)!important}
+main header{margin:0 0 19px!important}
+.main-title{font-size:30px!important;font-weight:750!important;line-height:1.35!important;letter-spacing:0!important;margin:0 0 13px!important;color:var(--blue-dark)!important}
+.main-title .eyebrow,.main-title .title-text{font-size:inherit!important;letter-spacing:0!important;line-height:inherit!important;font-weight:inherit!important;margin:0!important}
+.main-title .eyebrow{display:block!important}
+.main-title .title-text{display:block!important}
+section{margin:0!important;padding:0!important}
+h2{font-size:20px!important;font-weight:700!important;line-height:1.45!important;margin:23px 0 10px!important;padding:0 0 7px!important;border-bottom:2px solid var(--blue)!important}
+h3,.info-title{font-size:15px!important;font-weight:650!important;line-height:1.55!important}
+p,.intro,.callout p,.info-body p,.payment-example p,.process-step p{font-size:15px!important;line-height:1.65!important;font-weight:400!important;margin:0 0 8px!important}
+strong,b{font-weight:600!important}
+.note,.small-note,.flow-caption{font-size:13.5px!important;line-height:1.6!important;margin:6px 0 9px!important;color:#526174!important}
+.table-wrap{margin:8px 0 10px!important;overflow-x:auto!important;overflow-y:hidden!important}
+table{font-size:14px!important;line-height:1.5!important;background:#fff!important}
+th,td{font-size:14px!important;line-height:1.5!important;padding:8px 11px!important;vertical-align:middle!important;border:1px solid var(--line)!important}
+thead th{background:var(--header)!important;color:#173b5f!important;font-weight:650!important}
+tbody td,tbody th,th[scope=row]{background:#fff!important;color:var(--text)!important;font-weight:400!important}
+tbody th[scope=row]{font-weight:600!important}
+.reward-table .amount,.kpi-table .amount,.amount,.count{font-size:17px!important;font-weight:650!important;color:var(--blue-dark)!important;white-space:nowrap!important}
+.reward-table .unit,.kpi-table .unit,.unit{font-size:13px!important;font-weight:400!important}
+.formula{font-size:17px!important;font-weight:650!important;line-height:1.5!important;letter-spacing:0!important}
+.callout{margin:10px 0 12px!important;padding:10px 13px!important}
+.callout p:last-child,.info-body p:last-child,.payment-example p:last-child{margin-bottom:0!important}
+.info-box{margin:11px 0 12px!important;border-radius:5px!important}
+.info-title{padding:9px 12px!important;margin:0!important}
+.info-body{padding:10px 12px!important}
+.payment-example{margin:10px 0!important;padding:11px 13px!important}
+.payment-example .label{font-size:12px!important;margin:0 0 4px!important;font-weight:650!important}
+.level-flow{margin:10px 0 8px!important;gap:5px!important}
+.level-pill{padding:8px 7px!important;font-weight:600!important}
+.flow-caption{margin:5px 0 7px!important}
+.grade-table td{line-height:1.6!important}
+.process-grid{margin:9px 0!important;gap:9px!important}
+.process-step{padding:10px 12px!important}
+.process-step p{font-size:14px!important;margin:3px 0 0!important}
+.footer{margin:23px 0 0!important;padding:14px 0 0!important;border-top:1px solid #d9e2eb!important}
+.footer p{font-size:13.5px!important;line-height:1.65!important;margin:0 0 6px!important;color:#526174!important}
+.footer .signature{font-size:13.5px!important;font-weight:600!important;margin:10px 0 0!important}
+.footer a[href^="tel:"]{color:var(--blue-dark)!important;font-weight:650!important;text-decoration:underline!important;white-space:nowrap!important}
+@media(max-width:760px){
+ main{width:100%!important;margin:0!important;padding:22px 15px 27px!important;border:0!important;box-shadow:none!important}
+ main header{margin-bottom:16px!important}
+ .main-title{font-size:25px!important;line-height:1.36!important;margin:0 0 11px!important}
+ h2{font-size:18px!important;margin:21px 0 9px!important;padding-bottom:6px!important}
+ p,.intro,.callout p,.info-body p,.payment-example p,.process-step p{font-size:14px!important;line-height:1.6!important;margin-bottom:7px!important}
+ .note,.small-note,.flow-caption{font-size:12.5px!important}
+ table,th,td{font-size:13px!important;line-height:1.48!important}
+ th,td{padding:7px 7px!important}
+ .conditions th:first-child{width:28%!important}
+ .reward-table .amount,.kpi-table .amount,.amount,.count{font-size:16px!important}
+ .reward-table .unit,.kpi-table .unit,.unit{font-size:12px!important}
+ h3,.info-title{font-size:14px!important}
+ .formula{font-size:15px!important}
+ .level-flow{gap:4px!important}
+ .level-pill{padding:7px 2px!important;font-size:12px!important}
+ .level-arrow{font-size:12px!important}
+ .footer p,.footer .signature{font-size:12.5px!important}
+}
+@media(max-width:360px){main{padding-left:12px!important;padding-right:12px!important}.main-title{font-size:23px!important}table,th,td{font-size:12.5px!important}th,td{padding:6px 5px!important}}
+@media print{main{width:100%!important;padding:0!important;margin:0!important;border:0!important;box-shadow:none!important}}
+</style><style data-fix="growth-payment-layout">
+/* 僅修正第四章：長句斷行與卡片標題的視覺密度 */
+section[aria-labelledby="payment-title"] .info-body p,
+section[aria-labelledby="payment-title"] .payment-example p:not(.label){text-wrap:balance;overflow-wrap:break-word;word-break:normal;}
+section[aria-labelledby="payment-title"] .info-title{overflow-wrap:anywhere;word-break:normal;text-wrap:pretty;}
+@media (max-width:760px){
+ section[aria-labelledby="payment-title"] .info-title{font-size:13.5px!important;line-height:1.55!important;padding:9px 11px!important;}
+ section[aria-labelledby="payment-title"] .info-body{padding:10px 11px!important;}
+}
+</style><style data-fix="section4-unified-3cards">
+/* 僅第四章的三個框採相同外觀與文字排法。 */
+section[aria-labelledby="payment-title"] .info-box{
+ margin:10px 0 12px!important;border:1px solid #cddbe7!important;
+ background:#fff!important;border-radius:5px!important;overflow:hidden!important;
+}
+section[aria-labelledby="payment-title"] .info-box .info-title{
+ display:block!important;margin:0!important;padding:9px 12px!important;
+ background:#f4f8fc!important;color:#174a72!important;
+ font-size:15px!important;font-weight:650!important;line-height:1.55!important;
+ overflow-wrap:break-word!important;word-break:normal!important;text-wrap:wrap!important;
+}
+section[aria-labelledby="payment-title"] .info-box .info-body{
+ background:#fff!important;padding:10px 12px!important;
+}
+section[aria-labelledby="payment-title"] .info-box .info-body p{
+ margin:0!important;font-size:15px!important;line-height:1.65!important;
+ text-wrap:wrap!important;word-break:normal!important;overflow-wrap:break-word!important;
+}
+@media(max-width:760px){
+ section[aria-labelledby="payment-title"] .info-box .info-title{font-size:14px!important;padding:9px 11px!important;}
+ section[aria-labelledby="payment-title"] .info-box .info-body{padding:10px 11px!important;}
+ section[aria-labelledby="payment-title"] .info-box .info-body p{font-size:14px!important;line-height:1.6!important;}
+}
+</style></head>
+<body>
+<main>
+<header>
+<h1 class="main-title"><span class="title-text">緊急支援人力<br/>會員成長獎金制度</span></h1>
+<p class="intro">為鼓勵會員持續支援，自 115 年第四季新增成長獎勵制度。成長獎金以<strong>自己前一個月的支援次數</strong>為比較基準，當月支援次數增加達指定門檻，且符合基本資格，即可依規定領取成長獎金。</p>
+</header>
+<section aria-labelledby="tiers-title">
+<h2 id="tiers-title">一、每月成長獎金</h2>
+<p>依<strong>本月較前月增加的支援次數</strong>，按達成的最高級距發放。</p>
+<div class="table-wrap">
+<table aria-label="較前月增加支援次數與成長獎金對照" class="reward-table">
+<thead><tr><th scope="col">較前月增加支援次數</th><th scope="col">獎金金額</th></tr></thead>
+<tbody>
+<tr><td><strong>增加 4 次以上</strong>、未滿 7 次</td><td><span class="amount" style="font-weight:400;">200<span class="unit">元</span></span></td></tr>
+<tr><td><strong>增加 7 次以上</strong>、未滿 10 次</td><td><span class="amount" style="font-weight:400;">300<span class="unit">元</span></span></td></tr>
+<tr><td><strong>增加 10 次以上</strong></td><td><span class="amount" style="font-weight:400;">500<span class="unit">元</span></span></td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">較前月增加未滿 4 次，不發放成長獎金。各級距不重複累加，每月最高可領 500 元；另須符合前月至少支援 1 次的基本資格。</p>
+</section>
+<section aria-labelledby="count-title">
+<h2 id="count-title">二、成長次數怎麼算？</h2>
+<p>以會員<strong>本月支援次數減去前月支援次數</strong>，計算增加的次數；不是只看本月總共支援幾次。</p>
+<div class="info-box">
+<h3 class="info-title">成長次數計算公式</h3>
+<div class="info-body">
+<p class="formula">本月支援次數 − 前月支援次數 ＝ 增加次數</p>
+<p>例如：前月支援 5 次，本月支援 12 次，增加 <strong>7 次</strong>，符合基本資格時，可領取 <strong>300 元</strong>成長獎金。</p>
+</div>
+</div>
+<div class="table-wrap">
+<table aria-label="成長獎金計算範例" class="count-table">
+<thead><tr><th scope="col">前月與本月的支援紀錄</th><th scope="col">成長獎金</th></tr></thead>
+<tbody>
+<tr><td>前月 0 次 → 本月 10 次（增加 10 次）</td><td><strong>不符合</strong></td></tr>
+<tr><td>前月 1 次 → 本月 5 次（增加 4 次）</td><td><span class="count">200 元</span></td></tr>
+<tr><td>前月 2 次 → 本月 9 次（增加 7 次）</td><td><span class="count">300 元</span></td></tr>
+<tr><td>前月 3 次 → 本月 13 次（增加 10 次）</td><td><span class="count">500 元</span></td></tr>
+<tr><td>前月 5 次 → 本月 7 次（增加 2 次）</td><td><strong>未達門檻</strong></td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">以上為計算範例，獎金仍以實際支援紀錄及制度資格認定為準。</p>
+</section>
+<section aria-labelledby="eligibility-title">
+<h2 id="eligibility-title">三、獎金領取條件</h2>
+<div class="callout">
+<p><strong>重要：前月至少須有 1 次支援紀錄。若前月支援 0 次，即使當月支援很多次，也不列入成長獎勵計算。</strong></p>
+</div>
+<div class="table-wrap">
+<table aria-label="成長獎金基本資格" class="conditions">
+<thead><tr><th scope="col">項目</th><th scope="col">規則</th></tr></thead>
+<tbody>
+<tr><th scope="row">前月紀錄</th><td>前月至少須有 <strong>1 次</strong>支援紀錄。</td></tr>
+<tr><th scope="row">增加次數</th><td>本月較前月<strong>至少增加 4 次</strong>，始達最低獎勵門檻。</td></tr>
+<tr><th scope="row">計算週期</th><td>每月與<strong>前一個月</strong>比較，不跨月累積增加次數。</td></tr>
+</tbody>
+</table>
+</div>
+<div class="info-box">
+<h3 class="info-title">成長獎金和 KPI 獎金可以一起領嗎？</h3>
+<div class="info-body">
+<p>兩項獎勵<strong>分別依各自規定計算</strong>。成長獎金比較自己前月的支援次數；KPI 獎金則有支援品質、出勤、店長評價及發放資格等規定。</p>
+<p>同一月份若分別符合兩項制度資格，可分別取得對應獎勵。</p>
+</div>
+</div>
+</section>
+<section aria-labelledby="payment-title">
+<h2 id="payment-title">四、獎金何時發放？</h2>
+<p>成長獎金<strong>按月計算</strong>，於<strong>成長月份的次次月</strong>發放。</p>
+<div class="info-box"><h3 class="info-title">發放範例</h3><div class="info-body"><p>9 月支援 <strong>5 次</strong>、10 月支援 <strong>12 次</strong>，增加 <strong>7 次</strong>，若符合成長獎勵資格，可於 <strong>12 月</strong>領取 <strong>300 元</strong>成長獎金。</p></div></div>
+<div class="info-box">
+<h3 class="info-title">前月沒有支援，本月支援很多次，為什麼沒有成長獎金？</h3>
+<div class="info-body">
+<p>成長獎勵要求<strong>前月至少支援 1 次</strong>。前月為 0 次時，本月不列入成長獎勵計算。</p>
+</div>
+</div>
+<div class="info-box">
+<h3 class="info-title">覺得成長獎金不符，該怎麼確認？</h3>
+<div class="info-body">
+<p>請先核對<strong>成長月份及其前一個月</strong>的支援紀錄。例如 12 月發放 10 月的成長獎金，應比較 <strong>9 月與 10 月</strong>的支援次數，而不是 10 月與 11 月。</p>
+</div>
+</div>
+</section>
+<footer class="footer">
+<p>如對支援紀錄、成長次數認定或獎金發放有疑問，請洽招募中心群組小編。 招募中心電話：<a class="contact-phone" href="tel:+886281816056">(02) 8181-6056</a></p>
+<p class="signature">招募中心 敬上</p>
+</footer>
+</main>
+</body>
+</html>
